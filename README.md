@@ -1,6 +1,10 @@
 # systemd
 container service
 
+build an container image using Dockerfile name of image should be rhelimg
+use the link to download dockerfile  https://github.com/kunalc881/systemd
+
+
 create a container mysystemd from an image rhelimg
 configure the container with systemd service by an existing user "openshift"
 service name should be "myunnati-service" , and configure it to start automically across reboot
